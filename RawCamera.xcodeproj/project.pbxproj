@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973F8DDF148055C1008319B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8DDE148055C1008319B1 /* UIKit.framework */; };
+		973F8DE1148055C1008319B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8DE0148055C1008319B1 /* Foundation.framework */; };
+		973F8DE7148055C1008319B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 973F8DE5148055C1008319B1 /* InfoPlist.strings */; };
+		973F8DE9148055C1008319B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 973F8DE8148055C1008319B1 /* main.m */; };
+		973F8DED148055C1008319B1 /* videoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 973F8DEC148055C1008319B1 /* videoAppDelegate.m */; };
+		973F8DF0148055C1008319B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973F8DEE148055C1008319B1 /* MainStoryboard.storyboard */; };
+		973F8DF3148055C1008319B1 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973F8DF2148055C1008319B1 /* videoViewController.m */; };
+		973F8DFB148055C1008319B1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8DFA148055C1008319B1 /* SenTestingKit.framework */; };
+		973F8DFC148055C1008319B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8DDE148055C1008319B1 /* UIKit.framework */; };
+		973F8DFD148055C1008319B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8DE0148055C1008319B1 /* Foundation.framework */; };
+		973F8E05148055C1008319B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 973F8E03148055C1008319B1 /* InfoPlist.strings */; };
+		973F8E08148055C1008319B1 /* RawCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 973F8E07148055C1008319B1 /* RawCameraTests.m */; };
+		973F8E1214805649008319B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8E1114805649008319B1 /* AVFoundation.framework */; };
+		973F8E561480864F008319B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8E551480864F008319B1 /* QuartzCore.framework */; };
+		973F8E581480865A008319B1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8E571480865A008319B1 /* CoreImage.framework */; };
+		973F8E6214817A64008319B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8E6114817A64008319B1 /* CoreGraphics.framework */; };
+		973F8E6514817AAA008319B1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8E6414817AAA008319B1 /* CoreMedia.framework */; };
+		973F8E6714817AB0008319B1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973F8E6614817AB0008319B1 /* CoreVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		973F8DFE148055C1008319B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 973F8DD1148055C1008319B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973F8DD9148055C1008319B1;
+			remoteInfo = RawCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		973F8DDA148055C1008319B1 /* RawCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RawCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		973F8DDE148055C1008319B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		973F8DE0148055C1008319B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		973F8DE4148055C1008319B1 /* RawCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RawCamera-Info.plist"; sourceTree = "<group>"; };
+		973F8DE6148055C1008319B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		973F8DE8148055C1008319B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		973F8DEA148055C1008319B1 /* RawCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RawCamera-Prefix.pch"; sourceTree = "<group>"; };
+		973F8DEB148055C1008319B1 /* videoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videoAppDelegate.h; sourceTree = "<group>"; };
+		973F8DEC148055C1008319B1 /* videoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoAppDelegate.m; sourceTree = "<group>"; };
+		973F8DEF148055C1008319B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		973F8DF1148055C1008319B1 /* videoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videoViewController.h; sourceTree = "<group>"; };
+		973F8DF2148055C1008319B1 /* videoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoViewController.m; sourceTree = "<group>"; };
+		973F8DF9148055C1008319B1 /* RawCameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawCameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		973F8DFA148055C1008319B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		973F8E02148055C1008319B1 /* RawCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RawCameraTests-Info.plist"; sourceTree = "<group>"; };
+		973F8E04148055C1008319B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		973F8E06148055C1008319B1 /* RawCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RawCameraTests.h; sourceTree = "<group>"; };
+		973F8E07148055C1008319B1 /* RawCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RawCameraTests.m; sourceTree = "<group>"; };
+		973F8E1114805649008319B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		973F8E551480864F008319B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		973F8E571480865A008319B1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		973F8E6114817A64008319B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		973F8E6414817AAA008319B1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		973F8E6614817AB0008319B1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973F8DD7148055C1008319B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F8E6714817AB0008319B1 /* CoreVideo.framework in Frameworks */,
+				973F8E6514817AAA008319B1 /* CoreMedia.framework in Frameworks */,
+				973F8E6214817A64008319B1 /* CoreGraphics.framework in Frameworks */,
+				973F8E581480865A008319B1 /* CoreImage.framework in Frameworks */,
+				973F8E561480864F008319B1 /* QuartzCore.framework in Frameworks */,
+				973F8E1214805649008319B1 /* AVFoundation.framework in Frameworks */,
+				973F8DDF148055C1008319B1 /* UIKit.framework in Frameworks */,
+				973F8DE1148055C1008319B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973F8DF5148055C1008319B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F8DFB148055C1008319B1 /* SenTestingKit.framework in Frameworks */,
+				973F8DFC148055C1008319B1 /* UIKit.framework in Frameworks */,
+				973F8DFD148055C1008319B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		973F8DCF148055C1008319B1 = {
+			isa = PBXGroup;
+			children = (
+				973F8DE2148055C1008319B1 /* RawCamera */,
+				973F8E00148055C1008319B1 /* RawCameraTests */,
+				973F8DDD148055C1008319B1 /* Frameworks */,
+				973F8DDB148055C1008319B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		973F8DDB148055C1008319B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973F8DDA148055C1008319B1 /* RawCamera.app */,
+				973F8DF9148055C1008319B1 /* RawCameraTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973F8DDD148055C1008319B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				973F8E6614817AB0008319B1 /* CoreVideo.framework */,
+				973F8E6414817AAA008319B1 /* CoreMedia.framework */,
+				973F8E6114817A64008319B1 /* CoreGraphics.framework */,
+				973F8E571480865A008319B1 /* CoreImage.framework */,
+				973F8E551480864F008319B1 /* QuartzCore.framework */,
+				973F8E1114805649008319B1 /* AVFoundation.framework */,
+				973F8DDE148055C1008319B1 /* UIKit.framework */,
+				973F8DE0148055C1008319B1 /* Foundation.framework */,
+				973F8DFA148055C1008319B1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		973F8DE2148055C1008319B1 /* RawCamera */ = {
+			isa = PBXGroup;
+			children = (
+				973F8DEB148055C1008319B1 /* videoAppDelegate.h */,
+				973F8DEC148055C1008319B1 /* videoAppDelegate.m */,
+				973F8DEE148055C1008319B1 /* MainStoryboard.storyboard */,
+				973F8DF1148055C1008319B1 /* videoViewController.h */,
+				973F8DF2148055C1008319B1 /* videoViewController.m */,
+				973F8DE3148055C1008319B1 /* Supporting Files */,
+			);
+			path = RawCamera;
+			sourceTree = "<group>";
+		};
+		973F8DE3148055C1008319B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				973F8DE4148055C1008319B1 /* RawCamera-Info.plist */,
+				973F8DE5148055C1008319B1 /* InfoPlist.strings */,
+				973F8DE8148055C1008319B1 /* main.m */,
+				973F8DEA148055C1008319B1 /* RawCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		973F8E00148055C1008319B1 /* RawCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				973F8E06148055C1008319B1 /* RawCameraTests.h */,
+				973F8E07148055C1008319B1 /* RawCameraTests.m */,
+				973F8E01148055C1008319B1 /* Supporting Files */,
+			);
+			path = RawCameraTests;
+			sourceTree = "<group>";
+		};
+		973F8E01148055C1008319B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				973F8E02148055C1008319B1 /* RawCameraTests-Info.plist */,
+				973F8E03148055C1008319B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973F8DD9148055C1008319B1 /* RawCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973F8E0B148055C1008319B1 /* Build configuration list for PBXNativeTarget "RawCamera" */;
+			buildPhases = (
+				973F8DD6148055C1008319B1 /* Sources */,
+				973F8DD7148055C1008319B1 /* Frameworks */,
+				973F8DD8148055C1008319B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RawCamera;
+			productName = RawCamera;
+			productReference = 973F8DDA148055C1008319B1 /* RawCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		973F8DF8148055C1008319B1 /* RawCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973F8E0E148055C1008319B1 /* Build configuration list for PBXNativeTarget "RawCameraTests" */;
+			buildPhases = (
+				973F8DF4148055C1008319B1 /* Sources */,
+				973F8DF5148055C1008319B1 /* Frameworks */,
+				973F8DF6148055C1008319B1 /* Resources */,
+				973F8DF7148055C1008319B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973F8DFF148055C1008319B1 /* PBXTargetDependency */,
+			);
+			name = RawCameraTests;
+			productName = RawCameraTests;
+			productReference = 973F8DF9148055C1008319B1 /* RawCameraTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		973F8DD1148055C1008319B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 973F8DD4148055C1008319B1 /* Build configuration list for PBXProject "RawCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 973F8DCF148055C1008319B1;
+			productRefGroup = 973F8DDB148055C1008319B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973F8DD9148055C1008319B1 /* RawCamera */,
+				973F8DF8148055C1008319B1 /* RawCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973F8DD8148055C1008319B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F8DE7148055C1008319B1 /* InfoPlist.strings in Resources */,
+				973F8DF0148055C1008319B1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973F8DF6148055C1008319B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F8E05148055C1008319B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		973F8DF7148055C1008319B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		973F8DD6148055C1008319B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F8DE9148055C1008319B1 /* main.m in Sources */,
+				973F8DED148055C1008319B1 /* videoAppDelegate.m in Sources */,
+				973F8DF3148055C1008319B1 /* videoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973F8DF4148055C1008319B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F8E08148055C1008319B1 /* RawCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		973F8DFF148055C1008319B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 973F8DD9148055C1008319B1 /* RawCamera */;
+			targetProxy = 973F8DFE148055C1008319B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		973F8DE5148055C1008319B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973F8DE6148055C1008319B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		973F8DEE148055C1008319B1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973F8DEF148055C1008319B1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		973F8E03148055C1008319B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973F8E04148055C1008319B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		973F8E09148055C1008319B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		973F8E0A148055C1008319B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973F8E0C148055C1008319B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawCamera/RawCamera-Prefix.pch";
+				INFOPLIST_FILE = "RawCamera/RawCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		973F8E0D148055C1008319B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawCamera/RawCamera-Prefix.pch";
+				INFOPLIST_FILE = "RawCamera/RawCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		973F8E0F148055C1008319B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RawCamera.app/RawCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawCamera/RawCamera-Prefix.pch";
+				INFOPLIST_FILE = "RawCameraTests/RawCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		973F8E10148055C1008319B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RawCamera.app/RawCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawCamera/RawCamera-Prefix.pch";
+				INFOPLIST_FILE = "RawCameraTests/RawCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		973F8DD4148055C1008319B1 /* Build configuration list for PBXProject "RawCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973F8E09148055C1008319B1 /* Debug */,
+				973F8E0A148055C1008319B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973F8E0B148055C1008319B1 /* Build configuration list for PBXNativeTarget "RawCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973F8E0C148055C1008319B1 /* Debug */,
+				973F8E0D148055C1008319B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973F8E0E148055C1008319B1 /* Build configuration list for PBXNativeTarget "RawCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973F8E0F148055C1008319B1 /* Debug */,
+				973F8E10148055C1008319B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 973F8DD1148055C1008319B1 /* Project object */;
+}
